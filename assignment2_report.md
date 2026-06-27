@@ -2,7 +2,7 @@ GREAT EXPECTATIONS VALIDATION RESULTS:
 
 LIST OF ALL DATA QUALITY ISSUES WITH COUNTS:
 
-Summary of issues:
+Summary of issues:\
 Missing customer_id values: 150
 Duplicate customer_id values: 452
 Missing age values: 147
