@@ -1,4 +1,5 @@
 GREAT EXPECTATIONS VALIDATION RESULTS:
+<img width="1240" height="4351" alt="Screenshot_26-6-2026_2238_" src="https://github.com/user-attachments/assets/5e72bf41-6472-4e65-b44a-06a65af078ce" />
 
 LIST OF ALL DATA QUALITY ISSUES WITH COUNTS:
 
