@@ -2,7 +2,7 @@ GREAT EXPECTATIONS VALIDATION RESULTS:
 
 <img width="1240" height="4351" alt="Screenshot_26-6-2026_2238_" src="https://github.com/user-attachments/assets/5e72bf41-6472-4e65-b44a-06a65af078ce" />
 
-
+<br>
 LIST OF ALL DATA QUALITY ISSUES WITH COUNTS:
 
 Summary of issues:<br>
@@ -24,9 +24,9 @@ SCREENSHOT OF PYTEST EXECUTION:
 
 <img width="1115" height="628" alt="Screenshot 2026-06-26 213842" src="https://github.com/user-attachments/assets/94c9d1f3-ead7-4617-b541-e6310662330e" />
 
-
+<br>
 REFLECTION:
 
-The data quality issue that would most impact ML model performance is the salary column issue.<br>
-Salary is likely to be an important numerical feature in a customer dataset because it can influence customer behavior, segmentation, purchasing power, and predictions in ML models. However, the dataset contains salary values stored as strings with dollar signs, missing salary values, and negative salary values.<br>
-If salary isn’t cleaned properly, it may cause problems during model training because ML models usually require numerical input. Values such as “$50,000” may be read as a string instead of int, which means the model cannot use the feature correctly. Missing salary values can reduce the quality of the training data, while negative salary values are unrealistic and may distort statistics such as averages, distributions, and scaling.<br>
+The data quality issue that would most impact ML model performance is the salary column issue.<br><br>
+Salary is likely to be an important numerical feature in a customer dataset because it can influence customer behavior, segmentation, purchasing power, and predictions in ML models. However, the dataset contains salary values stored as strings with dollar signs, missing salary values, and negative salary values.<br><br>
+If salary isn’t cleaned properly, it may cause problems during model training because ML models usually require numerical input. Values such as “$50,000” may be read as a string instead of int, which means the model cannot use the feature correctly. Missing salary values can reduce the quality of the training data, while negative salary values are unrealistic and may distort statistics such as averages, distributions, and scaling.<br><br>
